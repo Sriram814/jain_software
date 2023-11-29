@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image:url("https://w.forfun.com/fetch/c2/c2f7a561bf462e6273682df49894edcc.jpeg");
+    background-size:cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dashboard-section {
+    background-image: linear-gradient(#376bdb,#ebed4e,#eb4eed);
+    
+    color:#ffffff;
+    font-family:"sans-serif";
+    padding: 20px;
+    border-radius: 8px;
+    margin:5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.button{
+    background-color:green;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard-content {
+    display: none;
+}
+
+#login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-section form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#admin-dashboard {
+    margin-top: 20px;
+}
+
+#admin-dashboard nav {
+    background-color: #333;
+}
+
+#admin-dashboard nav ul {
+    padding: 10px 0;
+}
+
+#admin-dashboard nav ul li {
+    margin-right: 20px;
+}
+
+#admin-dashboard nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#brokersList ul {
+    list-style: none;
+    padding: 0;
+}
+
+#brokersList ul li {
+    margin-bottom: 10px;
+}
